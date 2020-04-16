@@ -25,5 +25,9 @@
     - const implicit = x + "";    // implicit === 42
     
 - == vs. ===
+    -- == coerces the types
+    -- === requires equivalent types.
+    
+
 
 
