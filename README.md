@@ -28,6 +28,14 @@
     - == coerces the types
     - === requires equivalent types.
     
+# Operators
+    - Arithmetic Operators
+        - +, -, /, *, %, ++, --, +=, -=
+    - Relational Operators
+        - ==, ===, !=, >, <, >=, <=
+    - Logical Operators
+        - !, &&, ||
+    
 
 
 
