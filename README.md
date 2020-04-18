@@ -35,6 +35,12 @@
         - ==, ===, !=, >, <, >=, <=
     - Logical Operators
         - !, &&, ||
+# Conditions
+    - Conditional Statements
+        - if, else, else if
+    - Conditional Operators
+        - (isTrue) ? dothis : elseDothis
+    - Switch Statements
     
 
 
