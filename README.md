@@ -41,6 +41,10 @@
     - Conditional Operators
         - (isTrue) ? dothis : elseDothis
     - Switch Statements
+# Functions
+    - Function
+    - Scope of Variables
+    - Function expression anonymous functions
     
 
 
