@@ -42,7 +42,7 @@
         - (isTrue) ? dothis : elseDothis
     - Switch Statements
 # Functions
-    - Function
+    - Function (Simply a block of code that can be executed many times in different places)
     - Scope of Variables
     - Function expression anonymous functions
     
