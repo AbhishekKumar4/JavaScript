@@ -46,6 +46,43 @@
     - Scope of Variables
     - Function expression anonymous functions
     
+# Objects
+
+/*
+var emp =  {
+   name : 'abhishek',
+   age : 31,
+   isAdult : function() {
+      if(this.age >18) {
+         return true;
+      }
+      return false;
+   },
+   toString : function() {
+      return 'Name : ' +this.name +  'Age : ' + this.age; 
+   }
+   
+}
+*/
+//console.log(emp);
+
+
+function emp(name, age) {
+  this.name = name;
+  this.age = age,
+  this.toString = function() {
+   return 'Name : ' +this.name +  'Age : ' + this.age; 
+  };
+}
+
+var x  =  new emp('Abhishek', 31);
+var y  =  new emp('Manmeet', 31);
+
+emp.prototype.test = 'hello';
+
+console.log(x.test);
+console.log(y.test);
+
 
 
 
